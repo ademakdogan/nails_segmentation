@@ -1,0 +1,29 @@
+# tensorboard 
+scripts/runs
+
+# macbook
+.DS_Store
+
+# coverage
+cover
+
+#idea
+.idea
+
+**/.DS_Store
+*.pyc 
+
+
+# tensorflow logs
+scripts/logs
+scripts/tensorflow_logs
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+model/best_model.pth
+model/preprocessing_fn.pkl
+
