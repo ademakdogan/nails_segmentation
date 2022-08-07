@@ -46,7 +46,9 @@ The following command is used for evaluation
 ```
 __Evaluation on Test Data:  
 Mean IoU Score: 0.9883  
-Mean Dice Loss: 0.0728__  
+Mean Dice Loss: 0.0728__    
+  
+  
 Although the score seems to be high, all operations(training, evaluation) were completed with a small number of data. Therefore, in order to get good enough results in real life segmentation problems, it is necessary to use more data in training.
 
 ## Prediction
