@@ -1,8 +1,6 @@
 # NailsSegmentation
 
-This project was made for nails segmentation using deep learning models. __DeepLabV3Plus__ was used for segmentation problem. DeepLabV3Plus is a state-of-the-art deep learning model for semantic image segmentation. It builds upon the original DeepLabV3 model and incorporates an additional decoder module to enhance segmentation accuracy. This model leverages a powerful convolutional neural network architecture to classify each pixel in an image into different semantic categories, allowing for detailed and precise object segmentation. With its advanced features and impressive performance, DeepLabV3Plus is widely used in various computer vision applications such as autonomous driving, image editing, and medical imaging. ResNet101 were used as encoder and imagenet weights were used as encoder weights. The activation function was used as a sigmoid, since it was desired to solve a binary segmentation problem.
-
-The dataset has been downloaded from Kaggle (https://www.kaggle.com/datasets/vpapenko/nails-segmentation). This project is also an example of using pytorch gpu for m1 mac. For non-M1 mac, device part should be changed (mps-->gpu or mps-->cpu).
+This project was made for nails segmentation using deep learning models. __DeepLabV3Plus__ was used for segmentation problem. ResNet101 were used as encoder and imagenet weights were used as encoder weights. The activation function was used as a sigmoid, since it was desired to solve a binary segmentation problem. The dataset has been downloaded from Kaggle (https://www.kaggle.com/datasets/vpapenko/nails-segmentation). This project is also an example of using pytorch gpu for m1 mac. For non-M1 mac, device part should be changed (mps-->gpu or mps-->cpu).
 There are basic four steps here.  
 * Data Preparation  
 * Training
